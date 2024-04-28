@@ -1,0 +1,45 @@
+
+
+.color-switcher div{
+  width: 100wh;
+  height: 100vh;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 6;
+}
+.color-switcher #start {
+  color: #ecf0f1;
+  font-size: 17px;
+
+  background-color: #e67e22;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #d35400;
+  transition: all 0.1s;
+}
+
+.color-switcher  #start:active {
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 2px;
+}
+.color-switcher #stop {
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #224de6;
+  border: 1px solid #1295f3;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #0000d3;
+  transition: all 0.1s;
+}
+
+.color-switcher  #stop:active {
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 2px;
+}
